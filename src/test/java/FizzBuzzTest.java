@@ -22,8 +22,10 @@ public class FizzBuzzTest {
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 {1, "1"},
-                {3, "Fizz"}
-
+                {3, "Fizz"},
+                {5, "Buzz"},
+                {15, "FizzBuzz"},
+                {-1, null}
         });
     }
 
